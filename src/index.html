@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <title>Challenge - Frontend</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Estimator</title>
+    <script type="text/javascript" src="estimator.js"></script>
 
 </head>
 
@@ -13,19 +16,19 @@
         <form action="" method="post"><br>
             <label for="population"><b>Population:</b></label>
             <input style="text-align: center;" type="number" id="data-population" name="data-population"
-                value="66622705" /><br><br>
+                value="92931687" /><br><br>
 
             <label for="Time to Elapse"><b>Time to Elapse:</b></label>
             <input style="text-align: center;" type="number" id="data-time-to-elapse" name="data-time-to-elapse"
-                value="58" /><br><br>
+                value="38" /><br><br>
 
             <label for="Reported Cases"><b>Reported Cases:</b></label>
             <input style="text-align: center;" type="number" id="data-reported-cases" name="data-reported-cases"
-                value="674" /><br><br>
+                value="2747" /><br><br>
 
             <label for="Total Hospital Beds"><b>Total Hospital Beds:</b></label>
             <input style="text-align: center;" type="number" id="data-total-hospital-beds"
-                name="data-total-hospital-beds" value="1380614" /><br><br>
+                name="data-total-hospital-beds" value="678874" /><br><br>
 
             <label for="Period Type"><b>Period Type:</b></label> <select id="data-period-type" name="data-period-type">
                 <option value="days">select one...</option>
@@ -33,7 +36,7 @@
                 <option value="weeks">weeks</option>
                 <option value="months">months</option>
             </select><br><br>
-            <input type="submit" name="data-go-estimate" id="data-go-estimate" value="Submmit" />
+            <input type="button" name="data-go-estimate" onclick="covid19ImpactEstimator()" id="data-go-estimate" value="Submit" />
         </form><br>
     </div>
 
