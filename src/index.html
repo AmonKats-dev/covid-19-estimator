@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Challenge - Frontend</title>
+
+</head>
+
+<body style="text-align: center;">
+    <h1>MY COVID-19 ESTIMATOR</h1>
+    <p>You are required to <b><u>ENTER</u></b> the following info as given below.</p>
+
+    <div style="border: 2px solid green;">
+        <form action="" method="post"><br>
+            <label for="population"><b>Population:</b></label>
+            <input style="text-align: center;" type="number" id="data-population" name="data-population"
+                value="66622705" /><br><br>
+
+            <label for="Time to Elapse"><b>Time to Elapse:</b></label>
+            <input style="text-align: center;" type="number" id="data-time-to-elapse" name="data-time-to-elapse"
+                value="58" /><br><br>
+
+            <label for="Reported Cases"><b>Reported Cases:</b></label>
+            <input style="text-align: center;" type="number" id="data-reported-cases" name="data-reported-cases"
+                value="674" /><br><br>
+
+            <label for="Total Hospital Beds"><b>Total Hospital Beds:</b></label>
+            <input style="text-align: center;" type="number" id="data-total-hospital-beds"
+                name="data-total-hospital-beds" value="1380614" /><br><br>
+
+            <label for="Period Type"><b>Period Type:</b></label> <select id="data-period-type" name="data-period-type">
+                <option value="days">select one...</option>
+                <option value="days">days</option>
+                <option value="weeks">weeks</option>
+                <option value="months">months</option>
+            </select><br><br>
+            <input type="submit" name="data-go-estimate" id="data-go-estimate" value="Submmit" />
+        </form><br>
+    </div>
+
+</body>
+
+</html>
